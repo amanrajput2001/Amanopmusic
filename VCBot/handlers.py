@@ -79,7 +79,7 @@ async def on_end_handler(client, update: Update):
       elif op==2:
          await bot.send_message(chat_id, "**Some Error Occurred** \n`Clearing the Queues and Leaving the Voice Chat...`")
       else:
-         await bot.send_message(chat_id, f"**🎧 Now Playing** \n[{op[0]}]({op[1]}) | `{op[2]}`", disable_web_page_preview=True)
+         await bot.send_message(chat_id, f"**🎧 Song chalne laga party de ab bc** \n[{op[0]}]({op[1]}) | `{op[2]}`", disable_web_page_preview=True)
    else:
       pass
 
